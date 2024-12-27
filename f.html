@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        div.forms{
+            border-style:double;
+            border-width: 7px;
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            padding: 50px;
+            background-color: aliceblue;
+        }
+    </style>
+    
+    
+</head>
+<body background="">
+    <forms>
+        <div class="forms">
+        <div>
+            <label for="fname">First name:</label>
+            <input type="text" name="fname" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text" name="lname" required>
+        </div>
+        <br>
+        <div>
+            <label for="dept">Department:</label>
+            <input type="text" name="dept" placeholder="CSE(Cys)" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email ID:</label>
+            <input type="email" name="email" placeholder="abc@gmail.com" required>
+        </div>
+        <br>
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" required>
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone no:</label>
+            <input type="tel" name="phone" required>
+        </div>
+        <br>
+        <div>
+            <label for="DOF">Date of Birth:</label>
+            <input type="date" name="DOB" required>
+        </div>
+        <br>
+        <div>
+            <label for="hobby">Hobby:</label>
+            <input type="text" name="hobby">
+        </div>
+        <br>
+        <div>
+            <label for="year">Year of Passing:</label>
+            <select name="year" required>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Gender:</label>
+            <label>Female</label>
+            <input type="radio" name="Gender" value="Female">
+            <label>Male</label>
+            <input type="radio" name="Gender" value="Male">
+            <label>Others</label>
+            <input type="radio" name="Gender" value="Others">
+        </div>
+        <br>
+        <div>
+            <label for="Blood group">Blood Group</label>
+            <select name="Blood group" required>
+            <option value="a+">A+</option>
+            <option value="a-">A-</option>
+            <option value="b+">B+</option>
+            <option value="b-">B-</option>
+            <option value="o+">O+</option>
+            <option value="o-">O-</option>
+            <option value="ab+">AB+</option>
+            <option value="ab-">AB-</option>
+        </select>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" required>I agree to the terms 
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+    </div>
+    </forms> 
+</body>
+</html>
